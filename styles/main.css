@@ -1,0 +1,45 @@
+body {
+    margin-top: 1.0em;
+    background-color: #eee;
+    font-family: "gill sans", "helvetica";
+}
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 3px;
+}
+h2 {
+    font-size: 1.3em;
+    color: #333;
+}
+.paper {
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+a {
+    color: #111;
+}
+.contact-method {
+    font-weight: bold;
+}
+.paper-formalities {
+    font-size: 1.0em;
+    margin: 0 0 0 20px;
+    font-style: italic;
+}
+.paper-description {
+    font-size: 1.0em;
+    margin: 0 0 0 20px;
+}
+.interest {
+    font-weight: bold;
+}
+img {
+    border: 0px;
+}
+.portrait {
+    float: right;
+    margin: 0 0 100px 0; /* 100px hack to make it look like the image has it's own column */
+    padding: 0 0 0 0;
+}

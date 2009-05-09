@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backups
+._*
+
+# Nested repos
+git/
+darcs/
+

@@ -41,6 +41,15 @@ pageTracker._trackPageview();
 
 <h2>Papers</h2>
 
+<p class="paper"><a href="http://www.cl.cam.ac.uk/~dao29/publ/ypnos-damp10.pdf">Ypnos: Declarative, Parallel Structured Grid Programming</a> [<a href="http://www.cl.cam.ac.uk/~dao29/publ/ypnos1.html">Errata</a>]</p>
+<p class="paper-formalities">
+  with <a href="http://www.cl.cam.ac.uk/~dao29/">Dominic Orchard</a> and <a href="http://www.cl.cam.ac.uk/~am21/">Alan Mycroft</a>, May 2009. Presented at the workshop on <a href="http://damp10.cs.nmsu.edu/">Declarative Aspects of Multicore Programming '10</a>.
+</p>
+<p class="paper-description">
+  A declarative domain-specific language for expressing <a href="http://view.eecs.berkeley.edu/wiki/Structured_Grids">structured grid</a> computations in a format
+  that the compiler can <b>reliably</b> generate efficient code from.
+</p>
+
 <p class="paper"><a href="papers/tacc-hs09.pdf">Types are calling conventions</a> [<a href="http://haskell.org/haskellwiki/MaxBolingbroke/Talk:TypesAreCallingConventions">Discuss</a>] [<a href="papers/tacc-talk-hs09-static.pdf">Slides</a>]</p>
 <p class="paper-formalities">
   with <a href="http://research.microsoft.com/en-us/people/simonpj/">Simon Peyton Jones</a>, May 2009. Presented at the <a href="http://www.haskell.org/haskell-symposium/2009/">Haskell Symposium '09</a>.
@@ -49,11 +58,20 @@ pageTracker._trackPageview();
   Describes a nice little intermediate language for compiling a lazy functional programming language, and some optimisations we can express with it.
 </p>
 
+<p class="paper"><a href="papers/sql-like-list-comprehensions.pdf">Adding SQL-Style List Comprehensions to the Glasgow Haskell Compiler</a></p>
+<p class="paper-formalities">
+  supervised by <a href="http://research.microsoft.com/en-us/people/simonpj/">Simon Peyton Jones</a>, 2007-2008. Undergraduate dissertation for the <a href="http://www.cl.cam.ac.uk/teaching/projects/">Computer Science Tripos Part II</a>.
+</p>
+<p class="paper-description">
+  Description of my implementation of an extension of list comprehensions with SQL-like features such as grouping and sorting in GHC, which are also described in the <a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/syntax-extns.html#generalised-list-comprehensions">GHC user's guide</a>
+  and the <a href="http://research.microsoft.com/en-us/um/people/simonpj/papers/list-comp/">paper I based my implementation on</a>.
+</p>
+
 <h2>Research Interests</h2>
 <ul>
   <li><span class="interest">Extending the capabilities of functional programming languages</span>. I have contributed various things to the <a href="http://www.haskell.org/ghc">Glasgow Haskell Compiler</a> (GHC), including <a href="http://research.microsoft.com/en-us/um/people/simonpj/papers/list-comp/">SQL-like list
     comprehensions</a> and compiler plugins support (as part of the <a href="http://code.google.com/soc/">Google Summer of Code</a>).</li>
-  <li><span class="interest">Optimization of functional programs</span>. Again, I've done most of my work in this area in the context of GHC. Nothing publishable yet, but I have some things on the go.</li>
+  <li><span class="interest">Optimization and supercompilation of functional programs</span>. Again, I've done most of my work in this area in the context of GHC. Nothing publishable yet, but I have some things on the go.</li>
   <li><span class="interest">Hybrid strict/non-strict evaluation orders in functional programming languages</span>. My paper (with Simon Peyton Jones) on types as calling conventions is the first step to providing the ability for
     users of Haskell to write programs that incorporate strict values in a natural and comprehensible way.</li>
 </ul>

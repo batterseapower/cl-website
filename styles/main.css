@@ -12,7 +12,7 @@ h2 {
     font-size: 1.3em;
     color: #333;
 }
-.paper {
+.talk .paper {
     font-size: 1.0em;
     font-weight: bold;
     margin-bottom: 2px;
@@ -28,7 +28,7 @@ a {
     margin: 0 0 0 20px;
     font-style: italic;
 }
-.paper-description {
+.talk-description .paper-description {
     font-size: 1.0em;
     margin: 0 0 0 20px;
 }
